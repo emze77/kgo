@@ -23,5 +23,5 @@ jobs:
         run: |
           lftp -c "
             open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST;
-            mirror -R --delete --verbose ./ /www/htdocs/w01b37a7/kinogegenohnmacht.at/
+            mirror -R --delete --verbose ./ /kinogegenohnmacht.at/
           "
