@@ -7,12 +7,12 @@ const MOVIES = [
     date: "2025-10-18",
     dateAsText: "Samstag, 18. Oktober, ab 19 Uhr",
     img: "./assets/img/2025/01_wert-des-menschen_blackless.png",
-    location: "Rechbauerkino",
-    locationLink: "https://www.filmzentrum.com/",
+    location: "???", //  Rechbauerkino
+    locationLink: "", // https://www.filmzentrum.com/
     description:
       "Der Wert des Menschen (Originaltitel La loi du marché) ist ein Film des französischen Regisseurs Stéphane Brizé, der am 18. Mai 2015 im Rahmen der Filmfestspiele von Cannes seine Premiere feierte und einen Tag später in die französischen Kinos kam. Ab 17. März 2016 war der Film in den deutschen Kinos zu sehen. ",
-    adress: "Rechbauerstraße 6",
-    adressMapLink: "https://www.openstreetmap.org/node/6450145137",
+    adress: "???", // Rechbauerstraße 6
+    adressMapLink: "", // https://www.openstreetmap.org/node/6450145137
   },
 
   {
@@ -62,12 +62,12 @@ const MOVIES = [
     date: "2025-12-13",
     dateAsText: "Samstag, 13. Dezember, ab 19 Uhr",
     img: "./assets/img/2025/05_streik_blackless.png",
-    location: "KPÖ-Bildungsverein",
-    locationLink: "https://kpoe-bildungsverein.at/",
+    location: "???", // KPÖ-Bildungsverein
+    locationLink: "", // https://kpoe-bildungsverein.at/
     description:
       "Drei Jahre nach 'Der Wert des Menschen' (La loi du marché) präsentiert Stéphane Brizé sein neues Sozialdrama 'Streik' (En guerre). Im südfranzösischen Aden droht dem Werk der Perrin-Industrie, dem einzigen größeren Arbeitgeber der Region, die Schließung.",
-    adress: "Lagergasse 98a",
-    adressMapLink: "https://www.openstreetmap.org/way/122066195",
+    adress: "", // Lagergasse 98a
+    adressMapLink: "", // https://www.openstreetmap.org/way/122066195
   },
 ];
 
