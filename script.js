@@ -10,7 +10,7 @@ const MOVIES = [
     location: "???", //  Rechbauerkino
     locationLink: "", // https://www.filmzentrum.com/
     description:
-      "Der Wert des Menschen (Originaltitel La loi du marché) ist ein Film des französischen Regisseurs Stéphane Brizé, der am 18. Mai 2015 im Rahmen der Filmfestspiele von Cannes seine Premiere feierte und einen Tag später in die französischen Kinos kam. Ab 17. März 2016 war der Film in den deutschen Kinos zu sehen. ",
+      "Ein Film, der uns sprachlos zurückließ. Ohne Kitsch und Pathos zeigt Stepháne Brizé eindrücklich, was es in unserer modernen westlichen Gesellschaft bedeutet, Teil der lohnabhängigen Klasse zu sein. Was gezeigt wird ist das, woraus wir einen Ausweg suchen.",
     adress: "???", // Rechbauerstraße 6
     adressMapLink: "", // https://www.openstreetmap.org/node/6450145137
   },
@@ -24,7 +24,7 @@ const MOVIES = [
     location: "Die Kometin",
     locationLink: "https://kometin.at",
     description:
-      "The Promised Land is a 1975 Polish drama film directed by Andrzej Wajda, based on the novel of the same name by Władysław Reymont. Set in the industrial city of Łódź, The Promised Land tells the story of a Pole, a German, and a Jew struggling to build a factory in the raw world of 19th-century capitalism. Wajda presents a shocking image of the city, with its dirty and dangerous factories and ostentatiously opulent residences devoid of taste and culture.",
+      "Gibt es eigentlich Filme marxistischer Orientierung, die nicht aus der Perspektive der arbeitenden Klasse erzählt werden? Was wir gefunden haben, war ein polnisches Epos aus den 70ern, in welchen drei Söhne aus dem bonzigen Milieu ihre eigene Fabrik gründen wollen. Ein Film, der so spröde wie tief und so irritierend wie aufschlussreich ist. Bei dem Film gibt es mehr als eine Pause und wer ihn durchhält, bekommt einen Schnaps!",
     adress: "Rechbauerstraße 19a",
     adressMapLink: "https://www.openstreetmap.org/node/11272595629",
   },
@@ -38,7 +38,7 @@ const MOVIES = [
     location: "Die Kometin",
     locationLink: "https://kometin.at",
     description:
-      "The Organizer (Italian: I compagni) is a 1963 Italian-French-Yugoslavian-produced drama film written by Mario Monicelli and Age & Scarpelli, and directed by Mario Monicelli. Set in Turin at the end of the 19th century, it stars Marcello Mastroianni as a labor activist who becomes involved with a group of textile factory workers who go on strike. ",
+      "Ein revolutionärer Professor auf der Flucht trifft auf die streikbereite Belegschaft einer Fabrik. Während der eine endlich die Gelegenheit sieht, genau den Klassenkampf zu führen, den er sich immer erträumte, geht es für die anderen um das nackte Überleben. Was ist die Rolle von Intellektuellen im gewerkschaftlichen Kampf? Durch den zweiten Film unserer Reihe − ein italienischer Klassiker in schwarz und weiß − wollen wir genau dieser Frage nachgehen.",
     adress: "Rechbauerstraße 19a",
     adressMapLink: "https://www.openstreetmap.org/node/11272595629",
   },
@@ -51,7 +51,7 @@ const MOVIES = [
     location: "Die Kometin",
     locationLink: "https://kometin.at",
     description:
-      "Although labor activities could be very dangerous in China, some local consulting groups in the big city of Guangzhou continue to help migrant workers get their rights of work.",
+      "Was geht eigentlich ab in China? Fernab wallender roter Fahnen hat der Klassenkampf noch lange kein Ende gefunden. Wenhai Huang nimmt uns mit in die Fabriken und führt uns vor Augen, dass die Klasse der Lohnabhängigen eine internationale ist. Der Kampf, den sie für ihre Rechte führen, geschieht auf der ganzen Welt in ähnlicher Weise.",
     adress: "Rechbauerstraße 19a",
     adressMapLink: "https://www.openstreetmap.org/node/11272595629",
   },
@@ -65,8 +65,8 @@ const MOVIES = [
     location: "???", // KPÖ-Bildungsverein
     locationLink: "", // https://kpoe-bildungsverein.at/
     description:
-      "Drei Jahre nach 'Der Wert des Menschen' (La loi du marché) präsentiert Stéphane Brizé sein neues Sozialdrama 'Streik' (En guerre). Im südfranzösischen Aden droht dem Werk der Perrin-Industrie, dem einzigen größeren Arbeitgeber der Region, die Schließung.",
-    adress: "", // Lagergasse 98a
+      "Wir schließen die Klammer mit einem weiteren Film unseres neuen Helden Stéphane Brizé. War der Protagonist des ersten Films noch den Verhältnissen machtlos ausgesetzt, begibt er sich diesmal in den Arbeitskampf. Ein gegenwärtiger Streikfilm, der uns ein ernsthaftes Gefühl dafür vermittelt, was es bedeutet, die eigenen Interessen gegen einen übermächtig erscheinenden Gegner einzufordern.",
+    adress: "???", // Lagergasse 98a
     adressMapLink: "", // https://www.openstreetmap.org/way/122066195
   },
 ];
@@ -154,4 +154,4 @@ const ui = (function () {
   };
 })();
 
-ui.updateMovieBox(0)
+ui.updateMovieBox(0);
