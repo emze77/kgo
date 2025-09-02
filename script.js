@@ -4,8 +4,9 @@ const MOVIES = [
   {
     title: "Der Wert Des Menschen",
     director: "Stéphane Brizé",
+    announcement: "Eröffnung der Filmreihe",
     date: "2025-10-18",
-    dateAsText: "Eröffnung der Filmreihe", // Samstag, 18. Oktober, ab 19 Uhr
+    dateAsText: "Datum: to be announced", // Samstag, 18. Oktober, ab 19 Uhr
     img: "./assets/img/2025/01_wert-des-menschen_blackless.png",
     location: "tba", //  Rechbauerkino
     locationLink: "", // https://www.filmzentrum.com/
@@ -18,13 +19,14 @@ const MOVIES = [
   {
     title: "The Promised Land",
     director: "Andrzej Wajda",
+    announcement: "4. Film: Der Marathon",
     date: "2025-11-29",
-    dateAsText: "4. Film: Der Marathon", // Samstag, 29. November, ab 19 Uhr
+    dateAsText: "Datum: to be announced", // Samstag, 29. November, ab 19 Uhr
     img: "./assets/img/2025/04_the-promised-land_blackless.png",
     location: "Die Kometin",
     locationLink: "https://kometin.at",
     description:
-      "Gibt es eigentlich Filme marxistischer Orientierung, die nicht aus der Perspektive der arbeitenden Klasse erzählt werden? Was wir gefunden haben, war ein polnisches Epos aus den 70ern, in welchen drei Söhne aus dem bonzigen Milieu ihre eigene Fabrik gründen wollen. Ein Film, der so spröde wie tief und so irritierend wie aufschlussreich ist. Bei dem Film gibt es mehr als eine Pause und wer ihn durchhält, bekommt einen Schnaps!",
+      "Gibt es eigentlich Filme marxistischer Orientierung, die nicht aus der Perspektive der arbeitenden Klasse erzählt werden? Was wir gefunden haben, war ein polnisches Epos aus den 70ern, in welchen drei Söhne des bonzigen Milieus ihre eigene Fabrik gründen wollen. Ein Film, der so spröde wie tief und so irritierend wie aufschlussreich ist. Bei dem Film gibt es mehr als eine Pause und wer ihn durchhält, bekommt einen Schnaps!",
     adress: "Rechbauerstraße 19a",
     adressMapLink: "https://www.openstreetmap.org/node/11272595629",
   },
@@ -32,8 +34,9 @@ const MOVIES = [
   {
     title: "The Organizer",
     director: "Mario Monicelli",
+    announcement: "2. Film: Der Klassiker",
     date: "2025-11-01",
-    dateAsText: "2. Film: Der Klassiker", // Samstag, 1. November, ab 19 Uhr
+    dateAsText: "Datum: to be announced", // Samstag, 1. November, ab 19 Uhr
     img: "./assets/img/2025/02_the-organizer_blackless.png",
     location: "Die Kometin",
     locationLink: "https://kometin.at",
@@ -45,8 +48,9 @@ const MOVIES = [
   {
     title: "We the Workers",
     director: "Wenhai Huang",
+    announcement: "3. Film: Anderswo",
     date: "2025-11-15",
-    dateAsText: "3. Film: Anderswo", // Samstag, 15. November, ab 19 Uhr
+    dateAsText: "Datum: to be announced", // Samstag, 15. November, ab 19 Uhr
     img: "./assets/img/2025/03_we-the-workers_blackless.png",
     location: "Die Kometin",
     locationLink: "https://kometin.at",
@@ -59,8 +63,9 @@ const MOVIES = [
   {
     title: "Streik",
     director: "Stéphane Brizé",
+    announcement: "Abschlussfilm",
     date: "2025-12-13",
-    dateAsText: "Abschluss", // Samstag, 13. Dezember, ab 19 Uhr
+    dateAsText: "Datum: to be announced", // Samstag, 13. Dezember, ab 19 Uhr
     img: "./assets/img/2025/05_streik_blackless.png",
     location: "tba", // KPÖ-Bildungsverein
     locationLink: "", // https://kpoe-bildungsverein.at/
