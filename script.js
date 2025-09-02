@@ -110,6 +110,7 @@ const movieHandler = (function () {
 
 const ui = (function () {
   const moviesBox = {
+    announcement: document.querySelector("#movies__announcement"),
     dateAsText: document.querySelector("#movies__date-as-text"),
     img: document.querySelector("#movies__img"),
     location: document.querySelector("#movies__location"),
@@ -124,6 +125,7 @@ const ui = (function () {
   const updateMovieBox = (index) => {
     const displayedMovie = movieHandler.checkMoviesSortedByDate()[index];
 
+    moviesBox.announcement.textContent = displayedMovie.announcement;
     moviesBox.dateAsText.textContent = displayedMovie.dateAsText;
     moviesBox.img.src = displayedMovie.img;
     moviesBox.location.textContent = displayedMovie.location;
