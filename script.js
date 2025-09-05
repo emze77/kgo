@@ -126,7 +126,8 @@ const ui = (function () {
     const displayedMovie = movieHandler.checkMoviesSortedByDate()[index];
 
     moviesBox.announcement.textContent = displayedMovie.announcement;
-    moviesBox.dateAsText.textContent = displayedMovie.dateAsText;
+    // UNCOMMENT wenn Datum der Filme steht
+    // moviesBox.dateAsText.textContent = displayedMovie.dateAsText;
     moviesBox.img.src = displayedMovie.img;
     moviesBox.location.textContent = displayedMovie.location;
     moviesBox.description.textContent = displayedMovie.description;
