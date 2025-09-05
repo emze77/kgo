@@ -48,7 +48,7 @@ const MOVIES = [
   {
     title: "We the Workers",
     director: "Wenhai Huang",
-    announcement: "3. Film: Anderswo",
+    announcement: "3. Film: Anderswo ist hier",
     date: "2025-11-15",
     dateAsText: "Datum: to be announced", // Samstag, 15. November, ab 19 Uhr
     img: "./assets/img/2025/03_we-the-workers_blackless.png",
