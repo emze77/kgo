@@ -4,9 +4,9 @@ const MOVIES = [
   {
     title: "Der Wert Des Menschen",
     director: "Stéphane Brizé",
-    announcement: "Eröffnung der Filmreihe",
+    announcement: "Eröffnung: Unsre Leben",
     date: "2026-03-07",
-    dateAsText: "Datum: Samstag 7. März '26", // Samstag, 18. Oktober, ab 19 Uhr
+    dateAsText: "Samstag 7. März '26", // Samstag, 18. Oktober, ab 19 Uhr
     img: "./assets/img/2025/01_wert-des-menschen_blackless.png",
     location: "Die Kometin", //  Rechbauerkino
     locationLink: "https://kometin.at", // https://www.filmzentrum.com/
@@ -36,7 +36,7 @@ const MOVIES = [
     director: "Mario Monicelli",
     announcement: "2. Film: Der Klassiker",
     date: "2026-03-14",
-    dateAsText: "Datum: Samstag, 14. März '26", // Samstag, 1. November, ab 19 Uhr
+    dateAsText: "Samstag, 14. März '26", // Samstag, 1. November, ab 19 Uhr
     img: "./assets/img/2025/02_the-organizer_blackless.png",
     location: "Die Kometin",
     locationLink: "https://kometin.at",
@@ -50,7 +50,7 @@ const MOVIES = [
     director: "Wenhai Huang",
     announcement: "3. Film: Anderswo ist hier",
     date: "2026-03-21",
-    dateAsText: "Datum: Samstag, 21. März '26", // Samstag, 15. November, ab 19 Uhr
+    dateAsText: "Samstag, 21. März '26", // Samstag, 15. November, ab 19 Uhr
     img: "./assets/img/2025/03_we-the-workers_blackless.png",
     location: "Die Kometin",
     locationLink: "https://kometin.at",
@@ -63,9 +63,9 @@ const MOVIES = [
   {
     title: "Streik",
     director: "Stéphane Brizé",
-    announcement: "Abschlussfilm",
+    announcement: "Abschluss: Unsre Kämpfe",
     date: "2026-03-28",
-    dateAsText: "Datum: Samstag, 28. März '26", // Samstag, 13. Dezember, ab 19 Uhr
+    dateAsText: "Samstag, 28. März '26", // Samstag, 13. Dezember, ab 19 Uhr
     img: "./assets/img/2025/05_streik_blackless.png",
     location: "KPÖ-Bildungsverein", // KPÖ-Bildungsverein
     locationLink: "https://kpoe-bildungsverein.at/", // https://kpoe-bildungsverein.at/
@@ -127,7 +127,7 @@ const ui = (function () {
 
     moviesBox.announcement.textContent = displayedMovie.announcement;
     // UNCOMMENT wenn Datum der Filme steht
-    // moviesBox.dateAsText.textContent = displayedMovie.dateAsText;
+    moviesBox.dateAsText.textContent = displayedMovie.dateAsText;
     moviesBox.img.src = displayedMovie.img;
     moviesBox.location.textContent = displayedMovie.location;
     moviesBox.description.textContent = displayedMovie.description;
