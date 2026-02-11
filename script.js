@@ -8,12 +8,12 @@ const MOVIES = [
     date: "2026-03-07",
     dateAsText: "Datum: Samstag 7. März '26", // Samstag, 18. Oktober, ab 19 Uhr
     img: "./assets/img/2025/01_wert-des-menschen_blackless.png",
-    location: "tba", //  Rechbauerkino
-    locationLink: "", // https://www.filmzentrum.com/
+    location: "Die Kometin", //  Rechbauerkino
+    locationLink: "https://kometin.at", // https://www.filmzentrum.com/
     description:
       "Ein Film, der uns sprachlos zurückließ. Ohne Kitsch und Pathos zeigt Stepháne Brizé eindrücklich, was es in unserer modernen westlichen Gesellschaft bedeutet, Teil der lohnabhängigen Klasse zu sein. Was gezeigt wird ist das, woraus wir einen Ausweg suchen.",
-    adress: "tba", // Rechbauerstraße 6
-    adressMapLink: "", // https://www.openstreetmap.org/node/6450145137
+    adress: "Rechbauerstraße 19a/4", // Rechbauerstraße 6
+    adressMapLink: "https://www.openstreetmap.org/node/11272595629", // https://www.openstreetmap.org/node/6450145137
   },
 
   // {
@@ -67,12 +67,12 @@ const MOVIES = [
     date: "2026-03-28",
     dateAsText: "Datum: Samstag, 28. März '26", // Samstag, 13. Dezember, ab 19 Uhr
     img: "./assets/img/2025/05_streik_blackless.png",
-    location: "tba", // KPÖ-Bildungsverein
-    locationLink: "", // https://kpoe-bildungsverein.at/
+    location: "KPÖ-Bildungsverein", // KPÖ-Bildungsverein
+    locationLink: "https://kpoe-bildungsverein.at/", // https://kpoe-bildungsverein.at/
     description:
       "Wir schließen die Klammer mit einem weiteren Film unseres neuen Helden Stéphane Brizé. War der Protagonist des ersten Films noch den Verhältnissen machtlos ausgesetzt, begibt er sich diesmal in den Arbeitskampf. Ein gegenwärtiger Streikfilm, der uns ein ernsthaftes Gefühl dafür vermittelt, was es bedeutet, die eigenen Interessen gegen einen übermächtig erscheinenden Gegner einzufordern.",
-    adress: "tba", // Lagergasse 98a
-    adressMapLink: "", // https://www.openstreetmap.org/way/122066195
+    adress: "Lagergasse 98a", // Lagergasse 98a
+    adressMapLink: "https://www.openstreetmap.org/way/122066195", // https://www.openstreetmap.org/way/122066195
   },
 ];
 
