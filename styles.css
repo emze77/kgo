@@ -324,6 +324,18 @@ a {
   }
 }
 
+
+/* || COOPERATION BOX */
+
+img.blur-box__coop-img {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+
+
 /* || MANIFEST BOX */
 
 .manifest-box {
