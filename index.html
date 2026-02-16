@@ -1,253 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="preload"
-      as="style"
-      href="styles.css"
-      onload="this.rel='stylesheet'"
-    />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./assets/img/kgo/logo-kgo-favicon.png"
-    />
-    <!-- <link rel="stylesheet" href="styles.css"> -->
-    <title>Kino gegen Ohnmacht</title>
 
-    <meta property="og:title" content="Kino gegen Ohnmacht" />
-    <meta
-      property="og:description"
-      content="Klassenbewusstes Kinokollektiv aus Graz. Jedes Jahr eine neue Filmreihe zur kalten Jahrezeit."
-    />
-    <meta
-      property="og:image"
-      content="https://codeberg.org/emze/pages/src/branch/main/assets/img/kgo/logo-kgo_og-img---1200x630.jpg"
-    />
-    <meta property="og:url" content="https://kinogegenohnmacht.at" />
-    <meta property="og:type" content="website" />
-  </head>
-  <body>
-    <header>
-      <nav class="nav">
-        <h1 class="nav__header">Kino gegen Ohnmacht</h1>
-      </nav>
-    </header>
-    <main class="main">
-      <video autoplay muted loop id="kgoRichter" class="video-kgo-richter">
-        <source
-          src="./assets/video/kgo-richter-short--blur3.mp4"
-          type="video/mp4"
-        />
-      </video>
-      <div class="spacer--large"></div>
-      <div class="blur-box--align-left">
-        <div
-          class="blur-box blur-box--responsive-width"
-          id="upcoming-series-box"
-        >
-          <p class="main-text blur-box__title-description">Nächste Reihe:</p>
-          <h2 class="blur-box__header" id="upcoming-series-title">
-            Unsre Leben, unsre Kämpfe
-          </h2>
-          <p class="main-text main-text--large main-text--align-center">
-            Vier Filme zur Klassengesellschaft im Wochentakt.
-          </p>
-          <p class="main-text main-text--large main-text--align-center">
-            <span>März '26, jeden Samstag!</span>
-          </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preload" as="style" href="styles.css" onload="this.rel='stylesheet'" />
+  <link rel="icon" type="image/x-icon" href="./assets/img/kgo/logo-kgo-favicon.png" />
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <title>Kino gegen Ohnmacht</title>
+
+  <meta property="og:title" content="Kino gegen Ohnmacht" />
+  <meta property="og:description"
+    content="Klassenbewusstes Kinokollektiv aus Graz. Jedes Jahr eine neue Filmreihe zur kalten Jahrezeit." />
+  <meta property="og:image"
+    content="https://codeberg.org/emze/pages/src/branch/main/assets/img/kgo/logo-kgo_og-img---1200x630.jpg" />
+  <meta property="og:url" content="https://kinogegenohnmacht.at" />
+  <meta property="og:type" content="website" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <h1 class="nav__header">Kino gegen Ohnmacht</h1>
+    </nav>
+  </header>
+  <main class="main">
+    <video autoplay muted loop id="kgoRichter" class="video-kgo-richter">
+      <source src="./assets/video/kgo-richter-short--blur3.mp4" type="video/mp4" />
+    </video>
+    <div class="spacer--large"></div>
+    <div class="blur-box--align-left">
+      <div class="blur-box blur-box--responsive-width" id="upcoming-series-box">
+        <p class="main-text blur-box__title-description">Nächste Reihe:</p>
+        <h2 class="blur-box__header" id="upcoming-series-title">
+          Unsre Leben, unsre Kämpfe
+        </h2>
+        <p class="main-text main-text--large main-text--align-center">
+          Vier Filmkneipen zur Klassengesellschaft im Wochentakt.
+        </p>
+        <p class="main-text main-text--large main-text--align-center">
+          <span>März '26, jeden Samstag<br>ab 19 Uhr</span>
+        </p>
+      </div>
+    </div>
+    <div class="spacer--medium"></div>
+    <div class="blur-box--align-right">
+      <div class="blur-box blur-box--spacing-top--medium blur-box--responsive-width" id="about-box">
+        <h2 class="blur-box__header">Kino gegen Ohnmacht?</h2>
+        <p class="main-text main-text--align-left">
+          Kinokollektiv aus Graz &nbsp;&ndash; unabhängig & parteiisch.
+        </p>
+        <p class="main-text main-text--align-left">
+          Wir veranstalten Kneipenabende und zeigen dabei Filme, die wir als
+          politisch relevant erachten. Meist ist die Kometin der
+          Veranstaltungsort, wir machen aber gerne auch mal einen Ausflug.
+          <span class="strong">Der Eintritt ist frei.</span>
+        </p>
+        <div class="blur-box__social-media">
+          <a href="https://www.instagram.com/kino.gegen.ohnmacht/" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/icons/instagram-social-ws.png" class="blur-box__social-icon"
+              alt="Instagram Logo" /></a>
+          <a href="https://graz.social/@kinogegenohnmacht" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/img/icons/mastodon-logo-ws.png" class="blur-box__social-icon" alt="Mastodon Logo" /></a>
+          <img src="./assets/img/icons/calendar-ws.png" class="blur-box__social-icon" alt="Calender Logo" />
         </div>
       </div>
-      <div class="spacer--medium"></div>
-      <div class="blur-box--align-right">
-        <div
-          class="blur-box blur-box--spacing-top--medium blur-box--responsive-width"
-          id="about-box"
-        >
-          <h2 class="blur-box__header">Kino gegen Ohnmacht?</h2>
-          <p class="main-text main-text--align-left">
-            Kinokollektiv aus Graz &nbsp;&ndash; unabhängig & parteiisch.
+    </div>
+
+    <div class="spacer--medium"></div>
+
+    <div class="">
+      <div class="blur-box--align-center blur-box blur-box--movie-grid blur-box--width--large">
+        <div class="blur-box__announcement-header">
+          <h3 class="blur-box__date-header" id="movies__announcement">
+            Samstag, 18.&nbsp;Oktober, ab&nbsp;19&nbsp;Uhr
+          </h3>
+          <p class="main-text main-text--large" id="movies__date-as-text">
           </p>
-          <p class="main-text main-text--align-left">
-            Wir veranstalten Kneipenabende und zeigen dabei Filme, die wir als
-            politisch relevant erachten. Meist ist die Kometin der
-            Veranstaltungsort, wir machen aber gerne auch mal einen Ausflug.
-            <span class="strong">Der Eintritt ist frei.</span>
+        </div>
+
+        <button type="button" class="main-text blur-box__arrow-left blur-box__arrow--disabled" id="movies__arrow-left">
+          <img src="assets/img/icons/arrow-pfeil-links(larea)-ws.png" alt="arrow-left" />
+        </button>
+        <img class="blur-box__img" id="movies__img" src="./assets/img/2025/01_wert-des-menschen_blackless.png" alt="" />
+        <div class="blur-box__movie-text-section">
+          <p class="main-text main-text--align-left" id="movies__description"></p>
+          <p class="main-text blur-box__screen-location main-text--align-left">
+            <img class="blur-box__line-icons" src="./assets/img/icons/cinema-ws.png" alt="cinema-icon" />
+            <a id="movies__locationLink" href=""><span id="movies__location">Die Kometin</span></a>
+            <br />
+            <img class="blur-box__line-icons" src="./assets/img/icons/location-weiss.png" alt="location-icon" />
+
+            <a id="movies__adressMapLink" href="">
+              <span id="movies__adress"></span></a>
           </p>
-          <div class="blur-box__social-media">
-            <a
-              href="https://www.instagram.com/kino.gegen.ohnmacht/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="./assets/img/icons/instagram-social-ws.png"
-                class="blur-box__social-icon"
-                alt="Instagram Logo"
-            /></a>
-            <a
-              href="https://graz.social/@kinogegenohnmacht"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-            <img
-              src="./assets/img/icons/mastodon-logo-ws.png"
-              class="blur-box__social-icon"
-              alt="Mastodon Logo"
-            /></a>
-            <img
-              src="./assets/img/icons/calendar-ws.png"
-              class="blur-box__social-icon"
-              alt="Calender Logo"
-            />
-          </div>
         </div>
+        <button type="button" class="main-text blur-box__arrow-right" id="movies__arrow-right">
+          <img src="assets/img/icons/arrow-pfeil-rechts(larea)-ws.png" alt="arrow-right" />
+        </button>
       </div>
+    </div>
+    <div class="overlay overlay--first-step"></div>
+    <div class="overlay overlay--second-step"></div>
+    <div class="overlay overlay--third-step"></div>
 
-      <div class="spacer--medium"></div>
+    <div class="manifest-box" id="manifest-box">
+      <h2 class="blur-box__header">Selbstverständnis</h2>
+      <h3 class="blur-box__date-header">Wo wir stehen</h3>
 
-      <div class="">
-        <div
-          class="blur-box--align-center blur-box blur-box--movie-grid blur-box--width--large"
-        >
-          <div class="blur-box__announcement-header">
-            <h3 class="blur-box__date-header" id="movies__announcement">
-              Samstag, 18.&nbsp;Oktober, ab&nbsp;19&nbsp;Uhr
-            </h3>
-            <p class="main-text main-text--large" id="movies__date-as-text">
-            </p>
-          </div>
+      <p class="main-text main-text--align-left main-text--max-width">
+        Pfand sammelnde Pensionist:innen, armutsgefährdete Alleinerziehende
+        und mit unzumutbarer Bürokratie im Stich gelassene Geflüchtete sind
+        längst keine Einzelschicksale mehr. Im Jahr 2025 kann man auch
+        hierzulande nicht mehr übersehen, wie unsere Gesellschaft durch
+        unaufhörliches Profitstreben und Konkurrenzkampf immer weiter
+        gespalten wird. Rund 17&nbsp;% der österreichischen Bevölkerung gelten als
+        armuts- und ausgrenzungsgefährdet, gleichzeitig gehört Österreich zu
+        den zehn reichsten Ländern der Welt. Doch wo ist dieses Geld?
+      </p>
+      <p class="main-text main-text--align-left main-text--max-width">
+        Zumindest 210 Milliarden davon sind in den Taschen der 100 reichsten
+        österreichischen Familien. Allein 20&nbsp;% dieses Reichtums werden nur einem
+        Menschen alleine zugerechnet: Mark Mateschitz – Erbe. Er steht an der
+        Spitze der 10 reichsten Österreicher, die damit mehr haben als 90&nbsp;% der
+        österreichischen Bevölkerung zusammengenommen. Wird es dann aber in
+        den Staatskassen knapp, wird nicht das Vermögen der Reichen abgezapft,
+        sondern es wird mit höheren Steuern und Kürzungen von Sozialleistungen
+        das Leben derjenigen noch weiter erschwert, deren Schicksal es zu sein
+        scheint, für das schöne Leben der Reichen zu arbeiten.
+      </p>
+      <p class="main-text main-text--align-left main-text--max-width">
+        Diese Ungerechtigkeit ist unübersehbar, doch außerhalb politischer
+        Nischen und der KP gibt es in Österreich kaum Widerstand gegen diese
+        Verhältnisse. Das <em>Kino gegen Ohnmacht</em>-Kollektiv versteht sich
+        damit als Teil einer Erinnerungskultur: Wir erinnern daran, dass der
+        Gesellschaft,
+        <q>in welcher der Mensch dem Menschen ein Helfer ist</q>, kein
+        vermeintlicher Kulturkampf im Weg steht, sondern die kapitalistische
+        Produktionsweise und eine damit einhergehende Konzentration von Macht.
+      </p>
+      <h3 class="blur-box__date-header">Was wir wollen</h3>
 
-          <button
-            type="button"
-            class="main-text blur-box__arrow-left blur-box__arrow--disabled"
-            id="movies__arrow-left"
-          >
-            <img
-              src="assets/img/icons/arrow-pfeil-links(larea)-ws.png"
-              alt="arrow-left"
-            />
-          </button>
-          <img
-            class="blur-box__img"
-            id="movies__img"
-            src="./assets/img/2025/01_wert-des-menschen_blackless.png"
-            alt=""
-          />
-          <div class="blur-box__movie-text-section">
-            <p
-              class="main-text main-text--align-left"
-              id="movies__description"
-            ></p>
-            <p
-              class="main-text blur-box__screen-location main-text--align-left"
-            >
-              <img
-                class="blur-box__line-icons"
-                src="./assets/img/icons/cinema-ws.png"
-                alt="cinema-icon"
-              />
-              <a id="movies__locationLink" href=""
-                ><span id="movies__location">Die Kometin</span></a
-              >
-              <br />
-              <img
-                class="blur-box__line-icons"
-                src="./assets/img/icons/location-weiss.png"
-                alt="location-icon"
-              />
+      <p class="main-text main-text--align-left main-text--max-width">
+        Beim Film handelt es sich um eine Kunstform, die sich außerhalb der
+        Hochkultur bewegt. Der Film ist ein industriell hergestelltes Medium
+        der Masse. Wir konsumieren ihn am Handy, am Laptop, am Fernseher und
+        im Kino. Damit wir ganz im Filmerleben vereinnahmt werden, braucht es
+        die Arbeitskraft vieler Menschen: Vom Drehbuch über die
+        Produktionsleitung bis zur Regie, vom Schauspiel über die Statisten
+        zur Maske, von der Kameraarbeit über die Lichtsetzung bis zum
+        Bühnenbau, vom Schnitt über die Filmmusik zu den Spezialeffekten. Film
+        braucht damit Kapital und Investoren wissen: Nichts verkauft sich
+        besser als die Hoffnung auf individuelle Erlösung aus einem von
+        Isolation und Fremdbestimmung geprägten Leben.
+      </p>
+      <p class="main-text main-text--align-left main-text--max-width">
+        Dem entgegen sind wir als Kollektiv der Überzeugung, dass sich das
+        gute Leben nur gemeinsam erreichen lässt. Wir suchen daher Filme, die
+        den widrigen Bedingungen zum Trotz gesellschaftliche Emanzipation
+        fördern. Filme, welche die herrschenden Verhältnisse offenlegen, die
+        für aktuelle Kämpfe mobilisieren oder auch Alternativen zum
+        bestehenden System zeigen. Wir suchen das klassenbewusste Kino, das
+        den feministischen und antirassistischen Kampf nicht vergisst.
+      </p>
+      <p class="main-text main-text--align-left main-text--max-width">
+        Diese Filme zeigen wir im Rahmen von Kneipenabenden. Der Eintritt soll
+        immer frei sein, um uns in geselliger Runde darüber auszutauschen und
+        um uns zu vernetzen. Der Bewusstlosigkeit zu entsagen und aktiv gegen
+        Ohnmachts- und Vereinzelungstendenzen zu arbeiten ist der grundlegende
+        Anspruch von <em>Kino gegen Ohnmacht</em>.
+      </p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
 
-              <a id="movies__adressMapLink" href="">
-                <span id="movies__adress"></span
-              ></a>
-            </p>
-          </div>
-          <button
-            type="button"
-            class="main-text blur-box__arrow-right"
-            id="movies__arrow-right"
-          >
-            <img
-              src="assets/img/icons/arrow-pfeil-rechts(larea)-ws.png"
-              alt="arrow-right"
-            />
-          </button>
-        </div>
-      </div>
-      <div class="overlay overlay--first-step"></div>
-      <div class="overlay overlay--second-step"></div>
-      <div class="overlay overlay--third-step"></div>
-
-      <div class="manifest-box" id="manifest-box">
-        <h2 class="blur-box__header">Manifest</h2>
-        <h3 class="blur-box__date-header">Wo wir stehen</h3>
-
-        <p class="main-text main-text--align-left main-text--max-width">
-          Pfand sammelnde Pensionist:innen, armutsgefährdete Alleinerziehende
-          und mit unzumutbarer Bürokratie im Stich gelassene Geflüchtete sind
-          längst keine Einzelschicksale mehr. Im Jahr 2025 kann man auch
-          hierzulande nicht mehr übersehen, wie unsere Gesellschaft durch
-          unaufhörliches Profitstreben und Konkurrenzkampf immer weiter
-          gespalten wird. Rund 17&nbsp;% der österreichischen Bevölkerung gelten als
-          armuts- und ausgrenzungsgefährdet, gleichzeitig gehört Österreich zu
-          den zehn reichsten Ländern der Welt. Doch wo ist dieses Geld?
-        </p>
-        <p class="main-text main-text--align-left main-text--max-width">
-          Zumindest 210 Milliarden davon sind in den Taschen der 100 reichsten
-          österreichischen Familien. Allein 20&nbsp;% dieses Reichtums werden nur einem
-          Menschen alleine zugerechnet: Mark Mateschitz – Erbe. Er steht an der
-          Spitze der 10 reichsten Österreicher, die damit mehr haben als 90&nbsp;% der
-          österreichischen Bevölkerung zusammengenommen. Wird es dann aber in
-          den Staatskassen knapp, wird nicht das Vermögen der Reichen abgezapft,
-          sondern es wird mit höheren Steuern und Kürzungen von Sozialleistungen
-          das Leben derjenigen noch weiter erschwert, deren Schicksal es zu sein
-          scheint, für das schöne Leben der Reichen zu arbeiten.
-        </p>
-        <p class="main-text main-text--align-left main-text--max-width">
-          Diese Ungerechtigkeit ist unübersehbar, doch außerhalb politischer
-          Nischen und der KP gibt es in Österreich kaum Widerstand gegen diese
-          Verhältnisse. Das <i>Kino gegen Ohnmacht</i>-Kollektiv versteht sich
-          damit als Teil einer Erinnerungskultur: Wir erinnern daran, dass der
-          Gesellschaft,
-          <q>in welcher der Mensch dem Menschen ein Helfer ist</q>, kein
-          vermeintlicher Kulturkampf im Weg steht, sondern die kapitalistische
-          Produktionsweise und eine damit einhergehende Konzentration von Macht.
-        </p>
-        <h3 class="blur-box__date-header">Was wir wollen</h3>
-
-        <p class="main-text main-text--align-left main-text--max-width">
-          Beim Film handelt es sich um eine Kunstform, die sich außerhalb der
-          Hochkultur bewegt. Der Film ist ein industriell hergestelltes Medium
-          der Masse. Wir konsumieren ihn am Handy, am Laptop, am Fernseher und
-          im Kino. Damit wir ganz im Filmerleben vereinnahmt werden, braucht es
-          die Arbeitskraft vieler Menschen: Vom Drehbuch über die
-          Produktionsleitung bis zur Regie, vom Schauspiel über die Statisten
-          zur Maske, von der Kameraarbeit über die Lichtsetzung bis zum
-          Bühnenbau, vom Schnitt über die Filmmusik zu den Spezialeffekten. Film
-          braucht damit Kapital und Investoren wissen: Nichts verkauft sich
-          besser als die Hoffnung auf individuelle Erlösung aus einem von
-          Isolation und Fremdbestimmung geprägten Leben.
-        </p>
-        <p class="main-text main-text--align-left main-text--max-width">
-          Dem entgegen sind wir als Kollektiv der Überzeugung, dass sich das
-          gute Leben nur gemeinsam erreichen lässt. Wir suchen daher Filme, die
-          den widrigen Bedingungen zum Trotz gesellschaftliche Emanzipation
-          fördern. Filme, welche die herrschenden Verhältnisse offenlegen, die
-          für aktuelle Kämpfe mobilisieren oder auch Alternativen zum
-          bestehenden System zeigen. Wir suchen das klassenbewusste Kino, das
-          den feministischen und antirassistischen Kampf nicht vergisst.
-        </p>
-        <p class="main-text main-text--align-left main-text--max-width">
-          Diese Filme zeigen wir im Rahmen von Kneipenabenden. Der Eintritt soll
-          immer frei sein, um uns in geselliger Runde darüber auszutauschen und
-          um uns zu vernetzen. Der Bewusstlosigkeit zu entsagen und aktiv gegen
-          Ohnmachts- und Vereinzelungstendenzen zu arbeiten ist der grundlegende
-          Anspruch von <i>Kino gegen Ohnmacht</i>.
-        </p>
-      </div>
-    </main>
-    <script src="script.js"></script>
-  </body>
 </html>
