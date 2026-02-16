@@ -41,7 +41,7 @@ const MOVIES = [
     location: "Die Kometin",
     locationLink: "https://kometin.at",
     description:
-      "Ein revolutionärer Professor auf der Flucht trifft auf die streikbereite Belegschaft einer Fabrik. Während der eine endlich die Gelegenheit sieht, genau den Klassenkampf zu führen, den er sich immer erträumte, geht es für die anderen um das nackte Überleben. Was ist die Rolle von Intellektuellen im gewerkschaftlichen Kampf? Durch den zweiten Film unserer Reihe − ein italienischer Klassiker in schwarz und weiß − wollen wir genau dieser Frage nachgehen.",
+      "Ein revolutionärer Professor auf der Flucht trifft auf die streikbereite Belegschaft einer Fabrik. Während der eine endlich die Gelegenheit sieht, genau den Arbeitskampf zu führen, den er sich immer erträumte, geht es für die anderen um das nackte Überleben. In einem Klassiker von 1963 stellt Mario Monicelli die Frage, was die Rolle von Intellektuellen im gewerkschaftlichen Kampf sein kann.",
     adress: "Rechbauerstraße 19a",
     adressMapLink: "https://www.openstreetmap.org/node/11272595629",
   },
@@ -55,7 +55,7 @@ const MOVIES = [
     location: "Die Kometin",
     locationLink: "https://kometin.at",
     description:
-      "Was geht eigentlich ab in China? Fernab wallender roter Fahnen hat der Klassenkampf noch lange kein Ende gefunden. Wenhai Huang nimmt uns mit in die Fabriken und führt uns vor Augen, dass die Klasse der Lohnabhängigen eine internationale ist. Der Kampf, den sie für ihre Rechte führen, geschieht auf der ganzen Welt in ähnlicher Weise.",
+      "Was geht eigentlich ab in China? Fernab wallender roter Fahnen hat der Klassenkampf noch lange kein Ende gefunden. In seiner Dokumentation von 2018 begleitet Wenhai Huang Gewerkschaftler in ihrem täglichen Bemühungen, die Arbeiterklasse zu organisieren und sich dabei vor Repression zu schützen.",
     adress: "Rechbauerstraße 19a",
     adressMapLink: "https://www.openstreetmap.org/node/11272595629",
   },
@@ -70,7 +70,7 @@ const MOVIES = [
     location: "KPÖ-Bildungsverein", // KPÖ-Bildungsverein
     locationLink: "https://kpoe-bildungsverein.at/", // https://kpoe-bildungsverein.at/
     description:
-      "Wir schließen die Klammer mit einem weiteren Film unseres neuen Helden Stéphane Brizé. War der Protagonist des ersten Films noch den Verhältnissen machtlos ausgesetzt, begibt er sich diesmal in den Arbeitskampf. Ein gegenwärtiger Streikfilm, der uns ein ernsthaftes Gefühl dafür vermittelt, was es bedeutet, die eigenen Interessen gegen einen übermächtig erscheinenden Gegner einzufordern.",
+      "Der Markt hat das letzte Wort? Nicht für die 1.100 Angestellten eines französischen Autozulieferers, die gegen die Schließung ihres Standorts kämpfen, als ginge es um ihr Leben. Ein moderner Spielfilm von Stephané Brizé, nachdem man sich schämt, hat man je den Beschwichtigungen von Managern geglaubt.",
     adress: "Lagergasse 98a", // Lagergasse 98a
     adressMapLink: "https://www.openstreetmap.org/way/122066195", // https://www.openstreetmap.org/way/122066195
   },
